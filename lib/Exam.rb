@@ -9,7 +9,7 @@ class Exam
 		elsif number%5==0&&number%3==0
 			message="HateWindows"
 		else
-			message=number+""
+			message=number
 
 		end
 		return message
@@ -17,5 +17,4 @@ class Exam
 
 	
 	end
-
 end
